@@ -826,6 +826,9 @@ section {
   .section {
     padding: 2rem 2.5rem;
   }
+  .section {
+    padding-bottom: 6rem;
+  }
   .main-title h2 {
     font-size: 1.8rem;
   }
@@ -855,5 +858,37 @@ section {
   }
   .blogs {
     grid-template-columns: 1fr;
+  }
+  .main-title h2 {
+    font-size: 1.5rem;
+  }
+  .main-title h2 span {
+    font-size: 1.5rem;
+  }
+  .main-title h2 .bg-text {
+    font-size: 2.3rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .contact-item .icon span {
+    font-size: 0.8rem;
+  }
+  .contact-item p span {
+    font-size: 0.8rem;
+  }
+  .section {
+    padding-bottom: 6rem;
+  }
+  .main-title h2 {
+    font-size: 1.5rem;
+  }
+  .main-title h2 span {
+    font-size: 1.5rem;
+  }
+  .main-title h2 .bg-text {
+    font-size: 1.9rem;
+  }
+  .submit-btn {
+    justify-content: center !important;
   }
 }/*# sourceMappingURL=styles.css.map */
